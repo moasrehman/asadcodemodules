@@ -17,6 +17,8 @@ Expected trigger patterns of movement:
 6. move front
 7. move back
 
+Author: Mohammed Asad Rehman
+
 Created: 10AUG2016
 */
 #include "mbed.h"
