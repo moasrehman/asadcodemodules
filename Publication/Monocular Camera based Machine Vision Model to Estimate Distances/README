@@ -1,0 +1,6 @@
+About
+Title - Monocular Camera based Machine Vision Model to Estimate Distances 
+Journal - International Conference on Digital Signal and Image Processing (DSIP), 05th May-2013, Bhubaneswar, Procedings Journal
+ISBN: 978-93-82208-91-4
+Abstract- This paper presents a solution to the problem of measuring distances in known surrounding. Following text portrays an algorithm to estimate the actual distance of a symmetrical object of known dimensions with the use of a single camera. The distance calculation is performed using Digital Image processing without need of any additional sensors or reflective mirrors. Camera takes picture of object at exact location from where distance is to be estimated. Algorithm provides accurate estimations under acceptable error percentages. The algorithm can be implemented on live videos too.
+Keywords- Distance Measurement, Monocular Camera, Spatial Image Processing, Thin-lens formula.
