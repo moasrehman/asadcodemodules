@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+"stm32f103rb_nucleo\stm32f1xx_nucleo.o"
+"stm32f103rb_nucleo\stm32f1xx_hal_rcc_ex.o"
+"stm32f103rb_nucleo\stm32f1xx_hal.o"
+"stm32f103rb_nucleo\stm32f1xx_hal_gpio.o"
+"stm32f103rb_nucleo\stm32f1xx_hal_rcc.o"
+"stm32f103rb_nucleo\stm32f1xx_hal_cortex.o"
+"stm32f103rb_nucleo\stm32f1xx_it.o"
+"stm32f103rb_nucleo\main.o"
+"stm32f103rb_nucleo\system_stm32f1xx.o"
+"stm32f103rb_nucleo\startup_stm32f103xb.o"
+--library_type=microlib --strict --scatter "STM32F103RB_Nucleo\STM32F103RB_Nucleo.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32F103RB_Nucleo.map" -o STM32F103RB_Nucleo\STM32F103RB_Nucleo.axf
