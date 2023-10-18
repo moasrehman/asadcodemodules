@@ -1,0 +1,12 @@
+--cpu Cortex-M3
+".\flash\rtx_blinky.o"
+".\flash\buttons_nucleo_f103rb.o"
+".\flash\led_nucleo_f103rb.o"
+"C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
+".\flash\rtx_conf_cm.o"
+".\flash\startup_stm32f10x_md.o"
+".\flash\system_stm32f10x.o"
+--library_type=microlib --strict --scatter ".\Flash\RTX_Blinky.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\RTX_Blinky.map" -o .\Flash\RTX_Blinky.axf
