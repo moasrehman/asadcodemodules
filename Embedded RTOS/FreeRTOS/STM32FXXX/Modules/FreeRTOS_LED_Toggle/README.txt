@@ -3,7 +3,7 @@ An RTOS example to blink LED. modified from RTX blinky example. Added calls from
 
 Side note: 
 (Blinky example on FreeRTOS website is made for ARM Compiler Version 5.0 the current ARM compiler at this time is Version 6.0. Both have different infrastructure. ARM Compiler 6 brings together the modern LLVM compiler infrastructure. ARM Compiler 6 is based on a new technology it is only partially compatible with previous ARM Compiler Versions (5 and before).
-for more refer: https://www.keil.com/appnotes/files/apnt_298.pdf)
+for more refer: Migrate ARM Compiler 5 to ARM Compiler 6 guide at https://www.keil.com/appnotes/files/apnt_298.pdf)
 
 Abstract to original example:
 The 'RTX_Blinky' project is a simple CMSIS RTOS Kernel based example for
