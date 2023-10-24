@@ -1,3 +1,7 @@
+Description:
+RTOS blinky example application.
+
+Abstract
 The 'RTX_Blinky' project is a simple CMSIS RTOS Kernel based example for
 ST 'STM32F103RB' microcontroller using ST 'Nucleo-F103RB' Evaluation Board.
 Compliant to Cortex Microcontroller Software Interface Standard (CMSIS).
