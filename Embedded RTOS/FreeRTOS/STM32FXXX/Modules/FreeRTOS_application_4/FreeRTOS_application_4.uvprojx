@@ -389,16 +389,36 @@
               <FileType>1</FileType>
               <FilePath>.\RTX_Blinky.c</FilePath>
             </File>
+            <File>
+              <FileName>check_traffic_light.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\check_traffic_light.c</FilePath>
+            </File>
+            <File>
+              <FileName>change_traffic_light.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\change_traffic_light.c</FilePath>
+            </File>
+            <File>
+              <FileName>RTX_Blinky.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\RTX_Blinky.h</FilePath>
+            </File>
+            <File>
+              <FileName>change_traffic_light.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\change_traffic_light.h</FilePath>
+            </File>
+            <File>
+              <FileName>check_traffic_light.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\check_traffic_light.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>Documentation</GroupName>
           <Files>
-            <File>
-              <FileName>stashed_RTX_blinky.txt</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\stashed_RTX_blinky.txt</FilePath>
-            </File>
             <File>
               <FileName>README.txt</FileName>
               <FileType>5</FileType>
@@ -800,16 +820,36 @@
               <FileType>1</FileType>
               <FilePath>.\RTX_Blinky.c</FilePath>
             </File>
+            <File>
+              <FileName>check_traffic_light.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\check_traffic_light.c</FilePath>
+            </File>
+            <File>
+              <FileName>change_traffic_light.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\change_traffic_light.c</FilePath>
+            </File>
+            <File>
+              <FileName>RTX_Blinky.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\RTX_Blinky.h</FilePath>
+            </File>
+            <File>
+              <FileName>change_traffic_light.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\change_traffic_light.h</FilePath>
+            </File>
+            <File>
+              <FileName>check_traffic_light.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\check_traffic_light.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>Documentation</GroupName>
           <Files>
-            <File>
-              <FileName>stashed_RTX_blinky.txt</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\stashed_RTX_blinky.txt</FilePath>
-            </File>
             <File>
               <FileName>README.txt</FileName>
               <FileType>5</FileType>

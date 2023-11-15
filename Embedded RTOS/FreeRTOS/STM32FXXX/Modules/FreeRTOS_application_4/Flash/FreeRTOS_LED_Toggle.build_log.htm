@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Asad Rehman, Asad, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\Code_Repository\Embedded RTOS\FreeRTOS\STM32FXXX\Modules\FreeRTOS_application_4\FreeRTOS_application_4.uvprojx
+Project File Date:  11/13/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'STM32F103 Flash'
+compiling check_traffic_light.c...
+RTX_Blinky.c(176): warning: passing 'volatile uint8_t *' (aka 'volatile unsigned char *') to parameter of type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        display_pattern_to_LED(read_error_and_set_pattern(dispPtr));//());
+                                                          ^~~~~~~
+RTX_Blinky.c(59): note: passing argument to parameter here
+uint8_t read_error_and_set_pattern(uint8_t *);//(void);
+                                            ^
+RTX_Blinky.c(191): warning: passing 'volatile uint8_t *' (aka 'volatile unsigned char *') to parameter of type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        check_ADC_error(dispPtr);//();
+                        ^~~~~~~
+RTX_Blinky.c(58): note: passing argument to parameter here
+void check_ADC_error(uint8_t *);//(void);
+                              ^
+2 warnings generated.
+compiling RTX_Blinky.c...
+change_traffic_light.c(52): warning: expression result unused [-Wunused-value]
+                *display_pattern++;
+                ^~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling change_traffic_light.c...
+linking...
+Program Size: Code=6708 RO-data=496 RW-data=44 ZI-data=2380  
+".\Flash\FreeRTOS_LED_Toggle.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0.0
+   * Component: CORE Version: 5.6.0
+   * Component: Keil RTX Version: 4.82.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.MDK-Middleware.7.16.0.pack
+                Keil.MDK-Middleware.7.16.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: LED Version: 1.0.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32NUCLEO_BSP.1.8.1.pack
+                Keil.STM32NUCLEO_BSP.1.8.1
+                STMicroelectronics Nucleo Boards Support and Examples
+   * Component: LED Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103RB
+  ./RTE/_STM32F103_Flash
+  C:/Users/Lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/Lenovo/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS/RTX/INC
+  C:/Users/Lenovo/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board
+  C:/Users/Lenovo/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Board Support:LED:1.0.0 (API)
+      Include file:  Board/Board_LED.h
+
+   * Component: ::CMSIS:RTOS:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.82.0
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/MailQueue.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Mutex.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Semaphore.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Thread.c
+      Source file:   CMSIS/RTOS/RTX/Templates/RTX_Conf_CM.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/MemPool.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Timer.c
+      Source file:   CMSIS/RTOS/RTX/SRC/ARM/SVC_Table.s
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/MsgQueue.c
+      Include file:  CMSIS/RTOS/RTX/INC/cmsis_os.h
+      Include file:  CMSIS/RTOS/RTX/UserCodeTemplates/osObjects.h
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/main.c
+      Library file:  CMSIS/RTOS/RTX/LIB/ARM/RTX_CM3.lib
+
+   * Component: Keil.NUCLEO-F103RB::Board Support:LED:1.0.0
+      Source file:   Boards/ST/NUCLEO-F103RB/Common/LED_NUCLEO_F103RB.c
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  RTE_Driver/Config/RTE_Device.h
+      Source file:   Device/Source/system_stm32f10x.c
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+Build Time Elapsed:  00:00:19
+</pre>
+</body>
+</html>
