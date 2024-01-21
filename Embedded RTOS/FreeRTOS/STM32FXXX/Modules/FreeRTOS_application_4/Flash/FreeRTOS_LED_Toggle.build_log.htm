@@ -27,7 +27,6 @@ Project File Date:  11/13/2023
 <h2>Output:</h2>
 *** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
 Build target 'STM32F103 Flash'
-compiling check_traffic_light.c...
 RTX_Blinky.c(176): warning: passing 'volatile uint8_t *' (aka 'volatile unsigned char *') to parameter of type 'uint8_t *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
         display_pattern_to_LED(read_error_and_set_pattern(dispPtr));//());
                                                           ^~~~~~~
@@ -42,14 +41,9 @@ void check_ADC_error(uint8_t *);//(void);
                               ^
 2 warnings generated.
 compiling RTX_Blinky.c...
-change_traffic_light.c(52): warning: expression result unused [-Wunused-value]
-                *display_pattern++;
-                ^~~~~~~~~~~~~~~~~~
-1 warning generated.
-compiling change_traffic_light.c...
 linking...
-Program Size: Code=6708 RO-data=496 RW-data=44 ZI-data=2380  
-".\Flash\FreeRTOS_LED_Toggle.axf" - 0 Error(s), 3 Warning(s).
+Program Size: Code=6684 RO-data=480 RW-data=44 ZI-data=2380  
+".\Flash\FreeRTOS_LED_Toggle.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -119,7 +113,7 @@ Package Vendor: Keil
       Source file:   Device/Source/system_stm32f10x.c
       Source file:   Device/Source/ARM/STM32F1xx_OPT.s
       Source file:   Device/Source/ARM/startup_stm32f10x_md.s
-Build Time Elapsed:  00:00:19
+Build Time Elapsed:  00:00:11
 </pre>
 </body>
 </html>

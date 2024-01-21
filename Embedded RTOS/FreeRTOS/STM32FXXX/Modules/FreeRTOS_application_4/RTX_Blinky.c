@@ -112,13 +112,13 @@ int main (void) {
   LED_Initialize();                                        // LED Initialization
 	
   /* Start change-LED thread */
-	change_LED_handle = osThreadCreate(osThread(change_LED_thr), NULL);
+	//change_LED_handle = osThreadCreate(osThread(change_LED_thr), NULL);
 	
 	/* Start check-LED thread */
-	check_LED_handle = osThreadCreate(osThread(check_LED_thr), NULL);
+	//check_LED_handle = osThreadCreate(osThread(check_LED_thr), NULL);
 	
 	/* Start thread 1 */
-  //LEDThread1Handle = osThreadCreate(osThread(LED_Thread1), NULL);
+  LEDThread1Handle = osThreadCreate(osThread(LED_Thread1), NULL);
 	
 
   /* Start thread 2 */
