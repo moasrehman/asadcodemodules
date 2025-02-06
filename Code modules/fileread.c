@@ -11,7 +11,9 @@ char read_line(char given_file_name)
     return given_file_name;
 }
 
-//read a single value from the text file
+/*
+ * read a single value from the text file
+ */
 double read_value_at_line(char* filename, int linecount)
 {   
     FILE* file = fopen ((char*)filename, "r");
