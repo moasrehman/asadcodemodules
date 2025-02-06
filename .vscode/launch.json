@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Study/Code_Repository/Code modules",
-      "program": "d:/Study/Code_Repository/Code modules/build/Debug/outDebug",
+      "cwd": "d:/Study/Code_Repository/Code modules/excludecode",
+      "program": "d:/Study/Code_Repository/Code modules/excludecode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
