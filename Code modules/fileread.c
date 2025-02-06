@@ -29,12 +29,3 @@ double read_value_at_line(char* filename, int linecount)
 
     return i;
 }
-/****TEST CODE****
- * 
- *     printf("\n filename:%s.", filename);
- * 
- *     //FILE* file = fopen ("temperature2.txt", "r");
- *     //printf("\n %d", fscanf (file, "%d", &i));
- *         // printf("\nLine: %d, Value: %d",p+1, k);
- * 
- */
