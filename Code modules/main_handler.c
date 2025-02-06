@@ -50,16 +50,6 @@ void handler(void)
     
     }
 
-/***TEST CODE***
- * 
- * static char name_of_file[] = "temperature2.txt";
- * 
- * 
- * //(name_of_file, 10));//(fname, 10));
- * 
- * // char* fname = name_of_file;
- */
-
 int main (void)
 {
     handler();
